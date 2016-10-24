@@ -104,7 +104,7 @@ namespace Cash_Register_Summative
             Thread.Sleep(1000);
 
             try
-            {
+            { 
                 tender = Convert.ToInt16(tenderBox.Text);
                 change = tender - Convert.ToInt16(grandTotalLabel.Text);
             }
